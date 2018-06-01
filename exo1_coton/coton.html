@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SimplCoton</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<link rel="stylesheet" href="coton.css"/> 
+	</head>
+		<body>	
+			<div class="col-sm-12">
+				<h1>SimplC<img class="logo" src="images/SP.png" />ton</h1>
+				<p class="text">"bienvenue sur la page d'accueil de Simpl<font color="#c40341">Coton</font>."</p>
+			</div>
+		  
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<section class="image1">
+							<img class="sp2" src="images/sp2.png" />
+							<A HREF="https://simplon.co/"  title="Vous ne le regretterez pas !"><button class="btn"><p id="click">Entreprise</p></button></A>
+						</section>
+					</div>
+						<div class="col-sm-4">
+							<section class="image3">
+								<img class="logo1" src="images/bien2.png" />
+								<img class="logo1" src="images/bien.png" />
+							</section>
+				 
+							<script>
+								var myIndex = 0;
+								carousel();
+
+								function carousel() {
+									var i;
+									var x = document.getElementsByClassName("logo1");
+									for (i = 0; i < x.length; i++) {
+									   x[i].style.display = "none";  
+									}
+									myIndex++;
+									if (myIndex > x.length) {myIndex = 1}    
+									x[myIndex-1].style.display = "block";  
+									setTimeout(carousel, 500);    
+								}
+							</script>
+							
+							<section class="image4">
+								<img class="spre3" src="images/sp4.jpg" />
+								<A HREF="https://simplon.co/equipe/" title="Equipe SimplCton"><button class="btn"><p id="click">Nos Equipe</p></button></A>
+							</section>
+						</div>
+						
+					<div class="col-sm-4">
+						<section class="image2">
+							<img class="spre2" src="images/sp3.jpg" />
+							<A HREF="https://simplon.co/ecosysteme/essaimage-simplon-co/" title="Nos Locaux SimploCton"><button class="btn"><p id="click">Nos Locaux </p></button></A>
+						</section>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p class="nom"> &#169; Benyamine Maoulida</p>
+			</footer>
+		</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+	background-image: url(images/fondr.png);
+	background-repeat:no-repeat;
+	background-position:absolute;
+	background-size: cover;
+	height:100%;
+}
+
+/*titre SimplCoton*/
+h1{
+	text-align:center;
+	margin-top:0.5em;
+	font-family: roboto,sans-serif;
+	text-shadow:1px 1px 1px rgb(0,0,0) ;
+	color:rgb(067,067,067);
+	font-size:7em;
+}
+.logo{
+	width:45px;
+	height:45px;
+}
+p.text{
+	text-align:center;
+	font-family: roboto,sans-serif;
+	color:rgb(067,067,067);
+	font-size:1.3em;
+}
+
+/*Entreprise*/
+.image1{
+	width:auto;
+	text-align:center;
+	color:rgb(254,248,242);
+	border: 8px rgb(067,067,067) inset;
+	background-color: rgb(067,067,067);
+}
+.sp2{
+	width:334px;
+	height:270px;
+	border: 8px rgb(067,067,067) inset;
+}
+
+/*logo bienvenue*/
+.image3{ 	
+	width:auto;
+	color:rgb(254,248,242);
+	border: 8px rgb(067,067,067) inset;
+	background-color: rgb(067,067,067);
+}
+.logo1{
+	width:200px;
+	height:30px;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+/*Equipe*/
+.image4{ 	
+	text-align:center;
+	color:rgb(254,248,242);
+	border: 8px rgb(067,067,067) inset;
+	background-color: rgb(067,067,067);
+}
+.spre3{
+	width:226px;
+	height:170px;
+	border: 8px rgb(067,067,067) inset;
+}
+
+/*Locaux*/
+.image2{ 	
+	width:auto;
+	text-align:center;
+	color:rgb(254,248,242);
+	border: 8px rgb(067,067,067) inset;
+	background-color: rgb(067,067,067);
+}
+.spre2{
+	width:334px;
+	height:270px;
+	border: 8px rgb(067,067,067) inset;
+}
+
+/*bouton*/
+.btn {
+  color: rgb(254,248,242);
+  border:none;
+  background-color: rgb(067,067,067);
+	font-family: roboto,sans-serif;
+  font-size: 15.7px;
+  transition: 0.3s;
+}
+.btn:hover {
+  color: rgb(196,000,064);
+}
+
+/*fin de page(footer et nom)*/
+p.nom{
+	margin-right:1em;
+	font-family: roboto,sans-serif;
+	font-size:0.9em;
+}
+footer{
+	background-color: rgb(067,067,067);
+	text-align:right;
+	color:rgb(255,255,255);
+	width: auto;
+	height: auto;
+	bottom:0em;
+	left:0em ;
+	right: 0;
+	top: 42em;
+	padding:0em;
+	position:fixed;
+}
